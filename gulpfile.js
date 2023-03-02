@@ -37,7 +37,7 @@ const path = {
    },
    src: {
       html: srcPath + '*.html',
-      css: `${srcPath}assets/scss/*.scss`,
+      css: `${srcPath}assets/scss/**/*.scss`,
       js: `${srcPath}assets/js/*.js`,
       images: `${srcPath}assets/images/**/*.{jpg,png,svg,gif,ico,webp,webmanifest,xml,json}`,
       fonts: `${srcPath}assets/fonts/**/*.{eot,woff,woff2,ttf,svg}`
